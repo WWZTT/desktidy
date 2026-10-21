@@ -11,7 +11,7 @@
 - 或从仓库文件页打开 [`dist/桌面整理助手.exe`](dist/桌面整理助手.exe) 点「Download raw file」。
 - 运行环境：Windows 7 SP1 及以上 + .NET Framework 4.x（Windows 10 / 11 自带，无需另行安装）。
 - **exe 未做代码签名**，首次运行 Windows SmartScreen 可能提示「已保护你的电脑」：点「更多信息」→「仍要运行」即可。不放心就按下文自行编译，源码全部在这个仓库里。
-- SHA256：`e1dc189c021034a723745fbce5d5df0e5cf42fd60ec615c1c0e8ab3c2e349143`
+- SHA256：`e1dc189c021034a723745fbce5d5df0e5cf42fd60ec615c1c0e8ab3c2e349143`（对应仓库内这一份 exe；自行重新编译后哈希会变，属正常现象）
 
 ## 整理前 / 整理后
 
