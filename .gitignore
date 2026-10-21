@@ -1,0 +1,16 @@
+# 构建中间产物
+obj/
+
+# 注意：dist/ 是有意提交的 —— 里面是 62 KB 的单文件 exe 和使用说明，
+# 方便没有编译环境的用户直接下载运行。若不想在仓库里放二进制，删掉下面这行注释即可忽略它。
+# dist/
+
+# 编辑器 / 系统
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+.DS_Store

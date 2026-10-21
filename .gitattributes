@@ -1,0 +1,16 @@
+# 统一换行符：仓库内 LF，检出为 CRLF（Windows 工具）
+* text=auto eol=crlf
+
+# 二进制文件不做任何行尾转换
+*.exe   binary
+*.ico   binary
+*.png   binary
+*.jpg   binary
+*.zip   binary
+
+# PowerShell 脚本必须以 UTF-8 with BOM 保存（见 docs/TECHNICAL.md §9.3）。
+# 这里不设 working-tree-encoding，git 只做行尾转换，BOM 字节原样保留。
+
+# 语言统计
+*.md    linguist-documentation
+docs/   linguist-documentation
